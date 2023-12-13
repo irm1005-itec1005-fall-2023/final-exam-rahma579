@@ -41,7 +41,8 @@
     Site Header (hidden text - not visible on screen)
     Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-light.svg)
     Contact Us
-
+   
+        
     # MAIN SECTION
 
     ## HERO SECTION
@@ -113,13 +114,91 @@
     © 2023 Amy's Web Development Agency
 
   -->
+  <div class="page-container">
+  <header class="header">
+    <img src="./images/logo/logo-light.svg" alt="Amy's Web Development Agency Logo" class="logo" />
+    <nav class="navigation">
+      <button>Contact Us</button>
+    </nav>
+  </header>
 
   <main>
-    <div class="page-container">
-      <h1>Complete Your Final Exam Here</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="tagline">Web Development Solutions Made Easy</h1>
+      <p class="sub-tagline">Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</p>
+    </section>
+
+   <!-- Skills Section -->
+    <section class="skills">
+      <h2 class="visually-hidden">My Skills</h2>
+      <ul class="skills-list">
+        <li>Web Development</li>
+        <li>UI/UX</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>GitHub</li>
+      </ul>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="about-image-container">
+        <img src="images/about/about.jpg" alt="Amy in business attire with a pink background" class="about-img">
+      </div>
+      <div class="about-text">
+        <h3>Hey, I'm Amy. Are you ready to level up your web project?</h3>
+        <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+        <button>Contact me</button>
+      </div>
+    </section>
+
+   
+<section class="work">
+  <h2>My Work</h2>
+  <div class="work-container">
+    <div class="work-item">
+      <img src="images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03" class="work-img">
+      <h4>Tutorial Exercise 03</h4>
+      <button>HTML</button>
+      <button>CSS</button>
     </div>
+    <div class="work-item">
+      <img src="images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05" class="work-img">
+      <h4>Tutorial Exercise 05</h4>
+      <button>HTML</button>
+      <button>CSS</button>
+    </div>
+    <div class="work-item">
+      <img src="images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07" class="work-img">
+      <h4>Tutorial Exercise 07</h4>
+      <button>HTML</button>
+      <button>CSS</button>
+    </div>
+    <div class="work-item">
+      <img src="images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09" class="work-img">
+      <h4>Tutorial Exercise 09</h4>
+      <button>HTML</button>
+      <button>CSS</button>
+      <button>JavaScript</button>
+    </div>
+  </div>
+</section>
+
+
+    <section class="contact">
+      <h2 class="visually-hidden">Book a call with me</h2>
+      <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!"</p>
+      <button>Contact Me</button>
+    </section>
+
   </main>
 
+  <footer class="footer">
+    <img src="./images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo" class="logo">
+    <p>© 2023 Amy's Web Development Agency</p>
+  </footer>
 
 </body>
 </html>
